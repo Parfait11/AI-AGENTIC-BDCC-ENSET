@@ -1,0 +1,14 @@
+[project]
+name = "lab7-human-in-the-loop"
+version = "0.1.0"
+description = "LAB: Un agent HITL (Human-In-The-Loop)"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langgraph",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
