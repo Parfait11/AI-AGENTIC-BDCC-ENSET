@@ -1,0 +1,17 @@
+[project]
+name = "tp-chef-personnel"
+version = "0.1.0"
+description = "TP: Agent Chef Cuisinier Personnel (RAG + Mémoire + Web Search)"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langchain-community",
+    "langchain-huggingface",
+    "sentence-transformers",
+    "langgraph",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
