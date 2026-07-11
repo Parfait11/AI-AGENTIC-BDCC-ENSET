@@ -1,0 +1,14 @@
+[project]
+name = "lab6-contexte-et-etat"
+version = "0.1.0"
+description = "LAB: Contexte et Etat dans un agent LangChain/LangGraph"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langgraph",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
