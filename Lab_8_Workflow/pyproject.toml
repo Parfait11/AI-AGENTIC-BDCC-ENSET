@@ -1,0 +1,14 @@
+[project]
+name = "lab8-workflow-avec-langgraph"
+version = "0.1.0"
+description = "LAB: Workflows avec LangGraph"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langgraph",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
