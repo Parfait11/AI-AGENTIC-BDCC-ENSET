@@ -1,0 +1,15 @@
+[project]
+name = "lab5-langgraph-studio"
+version = "0.1.0"
+description = "LAB: Visualiser, tester et déboguer des agents avec LangGraph Studio"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langgraph",
+    "langgraph-cli[inmem]",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false

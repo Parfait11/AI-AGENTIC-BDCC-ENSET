@@ -1,0 +1,13 @@
+{
+    "graphs": {
+        "agent_simple": "./agent_simple.py:agent",
+        "main_agent": "./multi_agents.py:main_agent",
+        "subagent_1": "./multi_agents.py:subagent_1",
+        "subagent_2": "./multi_agents.py:subagent_2"
+    },
+    "env": "./.env",
+    "source": {
+        "kind": "uv",
+        "root": "."
+    }
+}
